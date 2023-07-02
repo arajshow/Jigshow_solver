@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- mobile status bar color -->
+    <meta name="theme-color" content="#fff">
+
+    <!-- icon linking =>{how to find type and rel} -->
+    <!-- <link rel="shortcut icon" href="./asserts/icon.png" type="image/x-icon"> -->
+
+    <!-- google font link taken from google font site -->
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet"> -->
+
+   <!-- box icons using {boxicon} site to get link -->
+
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="./app.css">
+
+    <style>
+
+        /* main div{
+            border: 2px solid red;
+        } */
+    </style>
+
+ 
+</head>
+
+<body>
+
+    <!-- top navigation -->
+
+    
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                Sudoku
+            </a>
+            <div class="dark-mode-toggle" id="dark-mode-toggle">
+                <i class="bx bxs-sun"></i>
+                <i class="bx bxs-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- end of top navigation -->
+
+
+    <!-- main -->
+    <div class="main">
+        <div class="screen">
+            <!-- start screen -->
+            <div class="start-screen active" id="start-screen">
+                <input type="text" placeholder="Your Name" maxlength="11" class="input-name" id="input-name">
+                <div class="btn" id="btn-level">
+                    Easy
+                </div>
+                <div class="btn" id="btn-continue">Continue</div>
+                <div class="btn btn-blue" id="btn-play">New game</div>
+            </div>
+            <!-- end of start screen -->
+        </div>
+    </div>
+
+
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
